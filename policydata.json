@@ -1,0 +1,41 @@
+{
+  "endpoint": "{version}/Policies/SearchPolicy/{carrierId}/{userId}",
+  "method": "GET",
+  "response": {
+    "policyId": 1,
+    "policyNumber": "POL001",
+    "policyTitle": "Sample Policy",
+    "insuranceCarrierId": "C001",
+    "insuredId": 101,
+    "insuredName": "John Doe",
+    "policyTypeId": 1,
+    "carrierPolicyTypeId": "CP001",
+    "policyTypeIcon": "icon1.png",
+    "policyTypeBackgroundColor": "#FFFFFF",
+    "effectiveDate": "2023-07-01T00:00:00Z",
+    "expiryDate": "2024-07-01T00:00:00Z",
+    "coverages": [
+      {
+        "policyRiskCoverageId": 1,
+        "policyRiskCoverageLevelId": 1,
+        "coverageName": "Coverage 1",
+        "carrierCoverageTypeId": "CC001",
+        "coverageType": "Type 1",
+        "coverageTypeIconBackgroundColor": "#FF0000",
+        "coverageTypeIcon": "icon1.png",
+        "coverageTypeIconColor": "#FFFFFF",
+        "coverageTypeDescription": "Description of Coverage 1"
+      },
+      {
+        "policyRiskCoverageId": 2,
+        "policyRiskCoverageLevelId": 2,
+        "coverageName": "Coverage 2",
+        "carrierCoverageTypeId": "CC002",
+        "coverageType": "Type 2",
+        "coverageTypeIconBackgroundColor": "#00FF00",
+        "coverageTypeIcon": "icon2.png",
+        "coverageTypeIconColor": "#000000",
+        "coverageTypeDescription": "Description of Coverage 2"
+      }
+    ]
+  }
